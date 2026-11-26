@@ -7,6 +7,12 @@ Bản phát hành trên repo là **gói đã đóng gói bảo vệ**. Bản ph�
 
 ---
 
+## 1.5.1 — 26/11/2026
+
+- Chống kẹt khi AI đã chấm mà không ra đề kế: bấm nút tiếp tục của widget, tối đa hai lần nhắc "Tiếp tục" rồi mới dừng.
+- Giữ nguyên đề khi cầu giải lỗi, không tính vào ba lần thất bại để tránh nhảy bài.
+- Dọn cấu trúc repo: bản console vào `build/`, script ULTRA cũ vào `legacy/`, thêm `version.json` và bản quản trị.
+
 ## [1.1.3] — 2026-11-13
 
 ### Sửa

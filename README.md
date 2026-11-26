@@ -91,9 +91,11 @@ Hạn mức tính theo tài khoản nhà cung cấp, không theo số key. Nhi�
 | Tệp | Nội dung |
 | --- | --- |
 | `EDUNEXT_BAS.user.js` | Bản userscript, cài qua Tampermonkey |
-| `EDUNEXT_BAS.console.js` | Bản chạy trong DevTools Console |
-| `SHA256SUMS.txt` | Mã SHA-256 của hai tệp trên |
-| `edunext_ULTRA.user.js` | Bản dùng cầu nối sang tab Gemini |
+| `EDUNEXT_BAS_ADMIN.user.js` | Bản quản trị (chat chung, khoá, phủ màn hình) |
+| `version.json` | Phiên bản mới nhất để script tự cập nhật |
+| `SHA256SUMS.txt` | Mã SHA-256 của các tệp phát hành |
+| `build/EDUNEXT_BAS.console.js` | Bản chạy trong DevTools Console |
+| `legacy/edunext_ULTRA.user.js` | Bản cũ dùng cầu nối sang tab Gemini (lưu trữ) |
 
 ```bash
 sha256sum -c SHA256SUMS.txt
